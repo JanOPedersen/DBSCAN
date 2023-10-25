@@ -1,0 +1,317 @@
+---------------------- Before ExpandCluster
+0 100 ClusterID: 0
+0 200 ClusterID: 0
+0 275 ClusterID: 0
+100 150 ClusterID: 0
+200 100 ClusterID: 0
+250 200 ClusterID: 0
+0 300 ClusterID: 0
+100 200 ClusterID: 0
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+GetRegion for (0 100)
+0 200 ClusterID: 0
+0 100 ClusterID: 0
+minPts: 3 seeds.size: 2
+---------------------- After ExpandCluster
+0 100 ClusterID: -1
+0 200 ClusterID: 0
+0 275 ClusterID: 0
+100 150 ClusterID: 0
+200 100 ClusterID: 0
+250 200 ClusterID: 0
+0 300 ClusterID: 0
+100 200 ClusterID: 0
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+---------------------- Before ExpandCluster
+0 100 ClusterID: -1
+0 200 ClusterID: 0
+0 275 ClusterID: 0
+100 150 ClusterID: 0
+200 100 ClusterID: 0
+250 200 ClusterID: 0
+0 300 ClusterID: 0
+100 200 ClusterID: 0
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+GetRegion for (0 200)
+100 200 ClusterID: 0
+0 300 ClusterID: 0
+0 275 ClusterID: 0
+0 200 ClusterID: 0
+0 100 ClusterID: -1
+minPts: 3 seeds.size: 5
+p: 0 200 seeds size: 5
+seeds: 
+100 200  ClusterId: 1
+0 300  ClusterId: 1
+0 275  ClusterId: 1
+0 100  ClusterId: 1
+GetRegion for (100 200)
+100 200 ClusterID: 1
+100 150 ClusterID: 0
+0 200 ClusterID: 1
+Seed size: 4 result size: 3
+resultP->ClusterId: 1
+resultP->ClusterId: 0
+resultP->ClusterId: 1
+currentP: 100 200 seeds size: 5
+ seeds size: 4
+GetRegion for (0 300)
+0 300 ClusterID: 1
+0 275 ClusterID: 1
+0 200 ClusterID: 1
+Seed size: 4 result size: 3
+resultP->ClusterId: 1
+resultP->ClusterId: 1
+resultP->ClusterId: 1
+currentP: 0 300 seeds size: 4
+ seeds size: 3
+GetRegion for (0 275)
+0 300 ClusterID: 1
+0 275 ClusterID: 1
+0 200 ClusterID: 1
+Seed size: 3 result size: 3
+resultP->ClusterId: 1
+resultP->ClusterId: 1
+resultP->ClusterId: 1
+currentP: 0 275 seeds size: 3
+ seeds size: 2
+GetRegion for (0 100)
+0 200 ClusterID: 1
+0 100 ClusterID: 1
+Seed size: 2 result size: 2
+currentP: 0 100 seeds size: 2
+ seeds size: 1
+GetRegion for (100 150)
+100 200 ClusterID: 1
+100 150 ClusterID: 1
+Seed size: 1 result size: 2
+currentP: 100 150 seeds size: 1
+ seeds size: 0
+---------------------- After ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: 0
+250 200 ClusterID: 0
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+---------------------- Before ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: 0
+250 200 ClusterID: 0
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+GetRegion for (200 100)
+200 100 ClusterID: 0
+minPts: 3 seeds.size: 1
+---------------------- After ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: 0
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+---------------------- Before ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: 0
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+GetRegion for (250 200)
+250 200 ClusterID: 0
+minPts: 3 seeds.size: 1
+---------------------- After ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: -1
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+---------------------- Before ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: -1
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 0
+650 700 ClusterID: 0
+675 700 ClusterID: 0
+675 710 ClusterID: 0
+675 720 ClusterID: 0
+50 400 ClusterID: 0
+GetRegion for (600 700)
+675 720 ClusterID: 0
+675 710 ClusterID: 0
+675 700 ClusterID: 0
+650 700 ClusterID: 0
+600 700 ClusterID: 0
+minPts: 3 seeds.size: 5
+p: 600 700 seeds size: 5
+seeds: 
+675 720  ClusterId: 2
+675 710  ClusterId: 2
+675 700  ClusterId: 2
+650 700  ClusterId: 2
+GetRegion for (675 720)
+675 720 ClusterID: 2
+675 710 ClusterID: 2
+675 700 ClusterID: 2
+650 700 ClusterID: 2
+600 700 ClusterID: 2
+Seed size: 4 result size: 5
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+currentP: 675 720 seeds size: 4
+ seeds size: 3
+GetRegion for (675 710)
+675 720 ClusterID: 2
+675 710 ClusterID: 2
+675 700 ClusterID: 2
+650 700 ClusterID: 2
+600 700 ClusterID: 2
+Seed size: 3 result size: 5
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+currentP: 675 710 seeds size: 3
+ seeds size: 2
+GetRegion for (675 700)
+675 720 ClusterID: 2
+675 710 ClusterID: 2
+675 700 ClusterID: 2
+650 700 ClusterID: 2
+600 700 ClusterID: 2
+Seed size: 2 result size: 5
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+currentP: 675 700 seeds size: 2
+ seeds size: 1
+GetRegion for (650 700)
+675 720 ClusterID: 2
+675 710 ClusterID: 2
+675 700 ClusterID: 2
+650 700 ClusterID: 2
+600 700 ClusterID: 2
+Seed size: 1 result size: 5
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+resultP->ClusterId: 2
+currentP: 650 700 seeds size: 1
+ seeds size: 0
+---------------------- After ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: -1
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 2
+650 700 ClusterID: 2
+675 700 ClusterID: 2
+675 710 ClusterID: 2
+675 720 ClusterID: 2
+50 400 ClusterID: 0
+---------------------- Before ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: -1
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 2
+650 700 ClusterID: 2
+675 700 ClusterID: 2
+675 710 ClusterID: 2
+675 720 ClusterID: 2
+50 400 ClusterID: 0
+GetRegion for (50 400)
+50 400 ClusterID: 0
+minPts: 3 seeds.size: 1
+---------------------- After ExpandCluster
+0 100 ClusterID: 1
+0 200 ClusterID: 1
+0 275 ClusterID: 1
+100 150 ClusterID: 1
+200 100 ClusterID: -1
+250 200 ClusterID: -1
+0 300 ClusterID: 1
+100 200 ClusterID: 1
+600 700 ClusterID: 2
+650 700 ClusterID: 2
+675 700 ClusterID: 2
+675 710 ClusterID: 2
+675 720 ClusterID: 2
+50 400 ClusterID: -1
